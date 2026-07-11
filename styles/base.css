@@ -125,6 +125,7 @@ footer {
     grid-column: 1 / 4;
     text-align: center;
     height: 80px;
+    font-weight: 100;
 
 
 }
