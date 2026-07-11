@@ -12,9 +12,8 @@ header {
     background-color: rgb(3, 45, 80);
     color: white;
     grid-column: 1 / 4;
-    justify-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    justify-items: center
+    
 }
 
 nav {
@@ -29,23 +28,25 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    transition: background-color 0.3s;
 }
 
 nav a:hover {
     color: #98d803;
+    
 }
 
 main {
-    display: grid;
-    max-width: auto;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem;
 }
 
 .name {
     text-align: center;
-    /* margin: 1rem 0; */
 } 
 
-.name h1 {
+.name h2 {
     font-size: 2rem;
     color: #004080;
 }
@@ -81,7 +82,7 @@ main {
     padding: 1rem;
 }
 
-.about h5 {
+.about h4 {
     text-align: center;
     color: rgb(3, 45, 80);
     margin: 1rem;
@@ -106,7 +107,9 @@ main {
 }
 
 .resources ul {
-    justify-content: end;
+   align-items: center;
+    text-decoration: none;
+    gap: 1rem;
 }
 /* .card1 {
     grid-column: 1 / 2;
