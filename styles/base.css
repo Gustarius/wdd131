@@ -5,15 +5,16 @@ body {
     display: grid;
     grid-template: auto 1fr auto / auto 1fr auto;
 }
+
 h1 {
     font-weight: 100;
 }
+
 header {
     background-color: rgb(3, 45, 80);
     color: white;
     grid-column: 1 / 4;
     justify-items: center
-    
 }
 
 nav {
@@ -23,6 +24,7 @@ nav {
     justify-content: center;
     gap: 150px;
     padding: 0.5rem;
+    width: 1000px;
 }
 
 nav a {
@@ -33,7 +35,7 @@ nav a {
 
 nav a:hover {
     color: #98d803;
-    
+
 }
 
 main {
@@ -44,29 +46,31 @@ main {
 
 .name {
     text-align: center;
-} 
+
+}
 
 .name h2 {
     font-size: 2rem;
     color: #004080;
+    margin: 0;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem;
+
 }
 
 .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem;
-    padding: 1rem;
-    
-}
-
-.about {
     border: 2px solid #004080;
     border-radius: 12px;
     padding: 1rem;
 
 }
 
-.about h3 {
+.card h3 {
     text-align: center;
     margin: 0;
     background-color: rgb(3, 45, 80);
@@ -76,13 +80,13 @@ main {
 
 }
 
-.about img {
+.card img {
     float: right;
     width: 125px;
     padding: 1rem;
 }
 
-.about h4 {
+.card h4 {
     text-align: center;
     color: rgb(3, 45, 80);
     margin: 1rem;
@@ -91,26 +95,15 @@ main {
 .about p {
     font-weight: 200;
 }
-.resources {
-    border: 2px solid #004080;
-    border-radius: 12px;
-    padding: 1rem;
 
-}
 
-.resources h3 {
-    text-align: center;
-    margin: 0;
-    background-color: rgb(3, 45, 80);
-    color: white;
-    font-weight: 50;
-}
 
-.resources ul {
-   align-items: center;
+.card a {
+    align-items: center;
     text-decoration: none;
     gap: 1rem;
 }
+
 /* .card1 {
     grid-column: 1 / 2;
     background-color: #ccc;
