@@ -22,9 +22,9 @@ nav {
     display: flex;
     grid-column: 1/4;
     justify-content: center;
-    gap: 150px;
+    gap: 350px;
     padding: 0.5rem;
-    width: 1000px;
+    width: 1900px;
 }
 
 nav a {
