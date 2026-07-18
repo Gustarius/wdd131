@@ -1,0 +1,53 @@
+@media screen and (min-width: 500px) {
+    /* header {
+        background-color: black;
+        color: white;
+    } */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        background: none;
+        padding: 0;
+    }
+
+    .nav-links li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-links li {
+        list-style: none;
+    }
+    
+    .hamburger {
+        display: none;
+    } 
+
+    nav a:hover {
+        color: #ffcc00;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        
+    }
+
+}
