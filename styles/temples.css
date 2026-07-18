@@ -12,6 +12,10 @@ header {
     height: 50px;
 }
 
+header p {
+    font-weight: bold;
+}
+
 h1 {
     font-size: 15px;
 }
@@ -82,7 +86,7 @@ footer {
     grid-column: 1 / 4;
     text-align: center;
     height: 60px;
-    font-weight: 10px;
+    font-size: 12px;
     padding: 5px;
 }
 
