@@ -59,6 +59,9 @@ h2 {
     border-bottom: 1px solid #dd0606;
 }
 
+.weather-icon {
+    display: none;
+}
 .data ul li {
     text-align: center;
 }

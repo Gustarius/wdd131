@@ -34,4 +34,9 @@
         align-items: end;
     }
 
+    .weather-icon {
+        display: block;
+        justify-items: center;
+    }
+
 }
