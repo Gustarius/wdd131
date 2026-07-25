@@ -34,7 +34,7 @@ footer {
 .nav-links {
     display: none;
     flex-direction: column;
-    background-color: #000;
+    background-color:rgb(1, 1, 92);;
     padding: 10px;
 }
 
@@ -48,6 +48,9 @@ footer {
     display: flex;
 }
 
+.nav-links li {
+    list-style: none;
+}
 
 nav a:hover {
     color: #ffcc00;
