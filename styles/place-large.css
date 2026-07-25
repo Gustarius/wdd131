@@ -1,22 +1,37 @@
 @media screen and (min-width: 600px) {
     .container {
-            max-width: 100%;
+            max-width: 1500px;
             grid-template-columns: 1fr 1fr;
         }
     header,
     main,
     footer {
-        max-width:100%;
+        max-width:1500px;
         margin: 0 auto;
     }
 
     .hero-image {
         display: block;
-        position: relative;
+        width: 1500px;
+        height: auto;
     }
 
     .image {
         display: none;
+    }
+    .data {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        background: rgba(255, 255, 255, 0.85);
+        align-content: start;
+    }
+    .weather {
+        position: absolute;
+        bottom: 5%;
+        right: 15%;
+        background: rgba(255, 255, 255, 0.85); 
+        align-items: end;
     }
 
 }
