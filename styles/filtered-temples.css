@@ -83,6 +83,7 @@ main h1 {
     max-width: 300px;
     background-color: #eee;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
 }
 
 .gallery section h3 {
@@ -108,9 +109,12 @@ main h1 {
 }
 
 .gallery section img:hover {
-    transform: scale(1.1);
-    
+    transform: scale(1.1);  
 }
+.gallery section:hover {
+    transform: scale(1.03);
+}
+
 .hero h1 {
     text-align: center;
     color: rgb(3, 45, 80);;
@@ -126,3 +130,6 @@ footer {
     padding: 5px;
 }
 
+footer p:hover {
+    color: #ffcc00;
+}
