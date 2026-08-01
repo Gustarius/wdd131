@@ -16,9 +16,8 @@ header p {
     font-weight: bold;
 }
 
-h1 {
-    font-size: 15px;
-}
+
+
 header,
 main,
 footer {
@@ -62,10 +61,11 @@ main {
     grid-gap: 1rem;
     
 }
-main h2 {
+main h1 {
     text-align: center;
     margin-bottom: 1rem;
-    color: rgb(1, 1, 92);;
+    color: rgb(1, 1, 92);
+    font-size: 20px;
 }
 .gallery {
     justify-items: center;
