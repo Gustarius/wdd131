@@ -34,7 +34,7 @@ footer {
 .nav-links {
     display: none;
     flex-direction: column;
-    background-color:rgb(1, 1, 92);;
+    background-color:rgb(1, 1, 92);
     padding: 10px;
 }
 
@@ -62,7 +62,11 @@ main {
     grid-gap: 1rem;
     
 }
-
+main h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(1, 1, 92);;
+}
 .gallery {
     justify-items: center;
 }
@@ -71,7 +75,7 @@ main {
     width: 150px;
 }
 
-.temple-card {
+.gallery section {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
@@ -81,21 +85,21 @@ main {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-.temple-card h2 {
+.gallery section h3 {
     margin-top: 0;
     font-size: 1.2em;
     color: #333;
     text-align: center;
 }
 
-.temple-card p {
+.gallery section p {
     margin: 2px 0;
     font-size: smaller;
     color: #555;
     text-align: center;
 }
 
-.temple-card img {
+.gallery section img {
     width: 100%;
     border-radius: 6px;
     margin-top: 10px;
@@ -103,7 +107,7 @@ main {
     box-shadow: 6px 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-.temple-card img:hover {
+.gallery section img:hover {
     transform: scale(1.1);
     
 }
