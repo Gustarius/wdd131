@@ -15,44 +15,47 @@
         <p>Product Review</p>
     </header>
     <main>
-        <label>Product Name
-            <select name="subject">
-                <option>Choose a Product</option>
-                <option value="capacitor">Flux capacitor</option>
-                <option value="laces">Power Laces</option>
-                <option value="circuits">Time circuits</option>
-                <option value="voltage">Low voltage reactor</option>
-                <option value="equalizer">Warp equalizer</option>
-            </select>
-        </label>
+        <form method="get" action="thanks,html" class="wf1">
+            <label>Product Name
+                <select name="subject">
+                    <option>Choose a Product &#9662;</option>
+                    <option value="capacitor">Flux capacitor</option>
+                    <option value="laces">Power Laces</option>
+                    <option value="circuits">Time circuits</option>
+                    <option value="voltage">Low voltage reactor</option>
+                    <option value="equalizer">Warp equalizer</option>
+                </select>
+            </label>
 
 
-        <div>Overall Rating</div>
-        <label><input type="radio" name="rating" value="star1">*</label>
-        <label><input type="radio" name="rating" value="star2">**</label>
-        <label><input type="radio" name="rating" value="star3">***</label>
-        <label><input type="radio" name="rating" value="star4">****</label>
-        <label><input type="radio" name="rating" value="star5">*****</label>
+            <div>Overall Rating</div>
+            <label><input type="radio" name="rating" value="star1">*</label>
+            <label><input type="radio" name="rating" value="star2">**</label>
+            <label><input type="radio" name="rating" value="star3">***</label>
+            <label><input type="radio" name="rating" value="star4">****</label>
+            <label><input type="radio" name="rating" value="star5">*****</label>
 
-        <label>Date of Installation<input type="date" name="installationDate"></label>
-            
-        <div>Which features did you find useful in the product? (check all that apply)</div>
-        <label><input type="checkbox"name="durability" value="yes">Durability</label>
-        <label><input type="checkbox"name="useful" value="yes">Ease of use</label>
-        <label><input type="checkbox"name="performance" value="yes">Performance</label>
-        <label><input type="checkbox"name="design" value="yes">Design</label>
+            <label>Date of Installation<input type="date" name="installationDate"></label>
+                
+            <div>Which features did you find useful in the product? (check all that apply)</div>
+            <label><input type="checkbox"name="durability" value="yes">Durability</label>
+            <label><input type="checkbox"name="useful" value="yes">Ease of use</label>
+            <label><input type="checkbox"name="performance" value="yes">Performance</label>
+            <label><input type="checkbox"name="design" value="yes">Design</label>
 
-        <label for="review">Written Review (Optional)</label>
-        <textarea id="review" name="review" rows="4"></textarea>
+            <label for="review">Written Review (Optional)</label>
+            <textarea id="review" name="review" rows="4"></textarea>
 
-        <label for="name">Your Name (Optional)</label>
-        <input type="text" id="name" name="name">
+            <label for="name">Your Name (Optional)</label>
+            <input type="text" id="name" name="name">
 
-        <button type="submit">Post Review</button>
+            <input type="submit" value="Post Review">
+        </form>
     </main>
 
     <footer>
-
+        <p> © <span id="currentyear"></span> - Urlin Gustave - Cap-Haitian - Haiti</p>
+        <p> <span id="lastModified"></span></p>
     </footer>
 
 </body>

@@ -1,0 +1,109 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+header,
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    padding: .5rem 2%;
+    border: none;
+    background-image: linear-gradient(#9c2c13, #6f200e) ;
+    color: #fff;
+    text-align: center;
+    font-size:bold;
+}
+
+
+header p {margin: 0; font-weight: bold;}
+
+main {
+    padding: 2rem;
+    min-height: 20rem;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+}
+
+.wf1 div{
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .9rem;
+}
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 select,
+.wf1 input[type="number"] {
+    background-color: #eee;
+    display: block;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"] {
+    margin-right: 6px;
+}
+select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+}
+
+.wf1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#9c2c13, #6f200e) ;
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+
+
+}
+
+footer {
+    border: none;
+    background-image: linear-gradient(#9c2c13, #6f200e) ;
+    color: #fff;
+    grid-column: 1 / 4;
+    text-align: center;
+    height: 60px;
+    font-size: 12px;
+    padding: 5px;
+}
